@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+.btn {
+  border: 2px solid rgb(255, 166, 0);
+  background: rgb(115, 100, 66);
+  background: linear-gradient(
+    90deg,
+    rgba(115, 100, 66, 1) 0%,
+    rgba(222, 133, 0, 1) 100%
+  );
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 20px;
+}
+
+.window {
+  display: none;
+  background-color: rgb(253, 233, 167);
+  width: 500px;
+  border: 2px solid rgb(253, 183, 77);
+  border-radius: 20px;
+  text-align: center;
+}
+.text {
+  font-size: 20px;
+}
+
+.trafic-lights {
+  width: 100px;
+  height: 250px;
+  background-color: rgb(64, 63, 65);
+  border-radius: 30px;
+  margin: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px 0;
+}
+.cirkle {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+.red {
+  background-color: red;
+  box-shadow: 0 0 25px rgb(247, 95, 95);
+}
+.yellow {
+  background-color: yellow;
+  box-shadow: 0 0 25px rgb(245, 243, 117);
+}
+.green {
+  background-color: rgb(4, 184, 4);
+  box-shadow: 0 0 25px rgb(106, 250, 106);
+}
